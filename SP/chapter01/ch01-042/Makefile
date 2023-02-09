@@ -1,8 +1,6 @@
-# Makefile
-
 CC=gcc
 CFLAGS=
-OBJS=main.o addnum.o
+OBJS=main.o perrortest.o strerrortest.o
 LIBS=
 
 all : main.out
