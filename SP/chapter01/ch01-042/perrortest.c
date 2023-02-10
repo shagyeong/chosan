@@ -5,7 +5,7 @@
 
 void perrortest(void){
     if(access("test.txt", R_OK) == -1){
-        printf("perrortest\n")
+        printf("perrortest\n");
         perror("test.txt");    
     }
 }

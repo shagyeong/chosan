@@ -9,7 +9,7 @@ extern int errno;
 void strerrortest(void){
     char* err;
     if(access("test.txt", R_OK) == -1){
-        printf("strerrortest\n")
+        printf("strerrortest\n");
         err = strerror(errno);
         printf("%s\n", err);
     }

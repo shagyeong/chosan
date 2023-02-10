@@ -10,8 +10,10 @@ main.out : $(OBJS)
 
 main.o : main.c
 	$(CC) $(CFLAGS) -c main.c
-addnum.o : addnum.c
-	$(CC) $(CFLAGS) -c addnum.c
+perrortest.o : perrortest.c
+	$(CC) $(CFLAGS) -c perrortest.c
+strerrortest.o : strerrortest.c
+	$(CC) $(CFLAGS) -c strerrortest.c
 
 clean:
 	rm -f $(OBJS) main.out *.o core
