@@ -1,2 +1,3 @@
-gcc -o main main.sh
-./main
+gcc -o main main.c
+./main -x name -yz
+
