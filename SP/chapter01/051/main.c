@@ -1,3 +1,4 @@
+/* 옵션 처리(getopt(3)) */
 #include<stdio.h>
 #include<unistd.h>
 
