@@ -19,3 +19,8 @@
 * 066 : 디렉터리 생성 및 삭제(mkdir(2), rmdir(2))
 * 069 : 현재 작업 디렉터리의 위치 검색 1(getcwd(3))
 * 071 : 현재 작업 디렉터리의 위치 검색 2(get_current_dir_name(3))
+* 073 : 디렉터리명 변경(rename(2))
+* 074 : 디렉터리 이동 1(chdir(2))
+* 075 : 디렉터리 이동 2(fchdir(2))
+* 078 : 디렉터리 열기, 닫기, 내용 읽기(opendir(3), closedir(3), readdir(3))
+* 081 : 디렉터리의 내용을 읽는 위치 변경하기(relldir(3), seekdir(3), rewind(3))
