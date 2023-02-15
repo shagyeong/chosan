@@ -23,4 +23,4 @@
 * 074 : 디렉터리 이동 1(chdir(2))
 * 075 : 디렉터리 이동 2(fchdir(2))
 * 078 : 디렉터리 열기, 닫기, 내용 읽기(opendir(3), closedir(3), readdir(3))
-* 081 : 디렉터리의 내용을 읽는 위치 변경하기(relldir(3), seekdir(3), rewind(3))
+* 081 : 디렉터리의 내용을 읽는 위치 변경하기(telldir(3), seekdir(3), rewind(3))

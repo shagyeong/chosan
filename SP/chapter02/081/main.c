@@ -1,4 +1,4 @@
-/* 디렉터리의 내용을 읽는 위치 변경하기(relldir(3), seekdir(3), rewind(3)) */
+/* 디렉터리의 내용을 읽는 위치 변경하기(telldir(3), seekdir(3), rewind(3)) */
 #include<stdio.h>
 #include<stdlib.h>
 #include<dirent.h>
