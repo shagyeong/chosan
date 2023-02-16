@@ -11,7 +11,7 @@ int main(void){
     cwd = getcwd(NULL, BUFSIZ);
     printf("current working directory : %s\n", cwd);
 
-    fd = open("test", O_RDONLY);
+    fd = open("test", O_RDONLY); /* open()은 디렉터리를 열고 파일 디스크립터를 리턴한다 */
     fchdir(fd);
 
     cwd = getcwd(NULL, BUFSIZ);

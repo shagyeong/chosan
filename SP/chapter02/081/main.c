@@ -33,3 +33,8 @@ int main(void){
 
     exit(0);
 }
+
+/*
+DIR* dp = opendir(".");
+long loc = telldir(dp);
+*/
